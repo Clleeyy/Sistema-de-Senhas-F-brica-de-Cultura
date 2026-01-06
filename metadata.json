@@ -1,0 +1,7 @@
+{
+  "name": "Sistema de Senhas Fábrica de Cultura",
+  "description": "Um sistema profissional de gestão de senhas com telas separadas para Configuração, Comando (Operador) e Transmissão (Público), sincronizadas em tempo real.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
