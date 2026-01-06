@@ -311,7 +311,7 @@ const CommandScreen = ({ tickets, updateTickets, config }: any) => {
   };
 
   return (
-    <div className="h-screen flex flex-col p-6 md:p-12 max-w-6xl mx-auto space-y-8">
+    <div className="h-screen flex flex-col p-6 md:p-12 max-w-7xl mx-auto space-y-8">
       <header className="flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-black text-white flex items-center gap-3">
@@ -329,9 +329,9 @@ const CommandScreen = ({ tickets, updateTickets, config }: any) => {
         </div>
       </header>
 
-      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-10">
-        {/* Senha Comum Block */}
-        <div className="bg-[#1a1a24] rounded-[40px] border border-white/5 p-12 flex flex-col items-center justify-between shadow-2xl relative overflow-hidden group">
+      <div className="flex-1 flex flex-col md:flex-row items-center justify-center gap-10">
+        {/* Senha Comum Block - Fixed Square 450x450 */}
+        <div className="w-[450px] h-[450px] aspect-square flex-shrink-0 bg-[#1a1a24] rounded-[40px] border border-white/5 p-12 flex flex-col items-center justify-between shadow-2xl relative overflow-hidden group">
           <div className="absolute top-0 left-0 w-2 h-full bg-blue-500" />
           
           <button 
@@ -357,8 +357,8 @@ const CommandScreen = ({ tickets, updateTickets, config }: any) => {
           </div>
         </div>
 
-        {/* Senha Preferencial Block */}
-        <div className="bg-[#1a1a24] rounded-[40px] border border-white/5 p-12 flex flex-col items-center justify-between shadow-2xl relative overflow-hidden group">
+        {/* Senha Preferencial Block - Fixed Square 450x450 */}
+        <div className="w-[450px] h-[450px] aspect-square flex-shrink-0 bg-[#1a1a24] rounded-[40px] border border-white/5 p-12 flex flex-col items-center justify-between shadow-2xl relative overflow-hidden group">
           <div className="absolute top-0 left-0 w-2 h-full bg-orange-500" />
 
           <button 
